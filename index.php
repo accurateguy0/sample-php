@@ -12,3 +12,8 @@ if(isset($_GET['message']) && $_GET['message'] != '') {
 
 $cow = Farm::create(\Cowsayphp\Farm\Cow::class);
 echo $cow->say($text);
+<b>Hello World!</b>
+<script> alert('Hello World from JavaScript!'); </script>
+<?php
+    echo "Hello World from PHP!";
+?>
